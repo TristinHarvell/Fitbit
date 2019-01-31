@@ -1,0 +1,1 @@
+import document from"document";import*as screenManager from"./screen.js";export function loadMenu(){let e=document.getElementById("m-btn-home"),n=document.getElementById("m-btn-partner"),o=document.getElementById("m-btn-pc");e.onclick=function(){screenManager.showHome()},n.onclick=function(){screenManager.showPokemon(0)},o.onclick=function(){screenManager.showPc()}};
